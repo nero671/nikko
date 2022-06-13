@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--Page Title-->
+  <title>Nikko</title>
+  <!--SEO-->
+  <meta name="description" content="Description">
+  <meta name="keywords" content="keyword1, keyword2">
+  <!--Additional meta tags-->
+  <meta name="msthemecompatible" content="no">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <!--Favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+  <link rel="manifest" href="./favicons/site.webmanifest">
+  <link rel="mask-icon" href="./favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicons/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!--Styles-->
+  <link id="app-css" rel="stylesheet" href="./assets/styles/app.min.css">
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
+    if (!('ontouchstart' in document.documentElement)) {
+      document.documentElement.className += ' no-touchevents';
+    } else {
+      document.documentElement.className += ' touchevents';
+    }
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <div class="no-js-warning">Для корректной работы сайта <b>включите JavaScript</b> в браузере</div>
+  </noscript>
+  <header id="header">
+    <div class="container">
+      <div class="header">
+        <div class="logo-header">
+          <a href="/nikko/nikko/index.html" class="logo-link">
+            <img src="assets/images/logo.svg" alt="Nikko">
+          </a>
+        </div>
+        <div class="navbar">
+          <div class="navbar-menu__link open-main-menu">
+            <!-- <svg class="header-icon" width="17" height="17">
+            <use href="assets/images/menu-burger.svg#burger"></use>
+          </svg>
+          <img class="burger-img" src="assets/images/menu-burger.svg" alt="Nikko"> -->
+            <svg id="burger" width="17" height="17" viewBox="0 0 17 17" fill="#0F1E2D" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="15.5" cy="1.5" r="1.5" />
+              <circle cx="8.5" cy="1.5" r="1.5" />
+              <circle cx="1.5" cy="1.5" r="1.5" />
+              <circle cx="15.5" cy="8.5" r="1.5" />
+              <circle cx="8.5" cy="8.5" r="1.5" />
+              <circle cx="1.5" cy="8.5" r="1.5" />
+              <circle cx="15.5" cy="15.5" r="1.5" />
+              <circle cx="8.5" cy="15.5" r="1.5" />
+              <circle cx="1.5" cy="15.5" r="1.5" />
+            </svg>
+            <a href="/nikko/equipment.html" class="nav-link">
+              Оборудование
+            </a>
+          </div>
+          <div class="header-line"></div>
+          <div class="navbar-menu__link">
+            <a href="/nikko/service.html" class="nav-link">
+              сервис и оборудование
+            </a>
+          </div>
+          <div class="navbar-menu__link open-company-menu">
+            <a href="/nikko/company.html" class="nav-link">
+              о компании
+            </a>
+            <img class="menu-arrow__img" src="assets/images/menu-arrow.svg" alt="Nikko">
+          </div>
+          <div class="navbar-menu__link">
+            <a href="#" class="nav-link">
+              дилеры
+            </a>
+          </div>
+          <div class="header-line"></div>
+          <div class="navbar-menu__link header-search">
+            <input class="input-search" type="text" placeholder="Поиск">
+            <input class="search-btn" type="submit" value="" />
+          </div>
+        </div>
+        <div class="lang-btn_wrapper">
+          <a href="#" class="lang-btn active">RU</a>
+          <a href="#" class="lang-btn">EN</a>
+          <a href="#" class="lang-btn">JP</a>
+        </div>
+        <div class="contacts-btn__block">
+          <a href="/nikko/nikko/contacts.html" class="contacts-btn">
+            связаться с нами
+          </a>
+        </div>
+        <div class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div id="header-menu">
+      <div class="header-menu header-main-menu">
+        <div class="fisrt-level-menu">
+          <nav class="navbar first-level__navbar first-level__navbar-wrapper">
+            <div class="nav-link__wrapper nav-link__item">
+              <a href="#" class="first-level__nav-link">
+                Первичная <br>
+                переработка рыбы
+              </a>
+              <div class="nav-link__wrapper-line"></div>
+            </div>
+            <div class="nav-link__wrapper nav-link__item">
+              <a href="#" class="first-level__nav-link">
+                Переработка <br>
+                лососевой икры
+              </a>
+              <div class="nav-link__wrapper-line"></div>
+            </div>
+            <div class="nav-link__wrapper nav-link__item">
+              <a href="#" class="first-level__nav-link">
+                Глубокая <br>
+                переработка рыбы
+              </a>
+              <div class="nav-link__wrapper-line"></div>
+            </div>
+            <div class="nav-link__wrapper nav-link__item">
+              <a href="#" class="first-level__nav-link">
+                Переработка <br>
+                морских гребешков
+              </a>
+              <div class="nav-link__wrapper-line"></div>
+            </div>
+            <div class="nav-link__wrapper nav-link__item">
+              <a href="#" class="first-level__nav-link">
+                Комплексные <br>
+                решения
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="second-level-menu">
+          <nav class="navbar">
+            <div class="nav-link__wrapper">
+              <a href="/nikko/modification.html" class="second-level__nav-link">
+                Линия непрерывной переработки лососевых NAG-601
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/modification.html" class="second-level__nav-link">
+                Установка для автоматического отсекания голов NOH-100
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/modification.html" class="second-level__nav-link">
+                Установка для потрошения и мойки лососевых NMG-501
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/workshop.html" class="second-level__nav-link">
+                Линия автоматической сортировки и весового контроля NDG-2000
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="second-level-menu d-none">
+          <nav class="navbar">
+            <div class="nav-link__wrapper">
+              <a href="#" class="second-level__nav-link">
+                Икорные сепараторы NRS
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Установка для промывки лососевой икры NRSS-1000
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Установка для засолки лососевой икры NSA-500
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Установка для подсушки лососевой икры NSK-800
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/workshop.html" class="second-level__nav-link">
+                Икорный цех серии NRS
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="second-level-menu d-none">
+          <nav class="navbar">
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Филетировочная машина NSSB-300
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Многофункциональная филетировочная машина NSB-300
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Слайсер NPJ-3000
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/separations.html" class="second-level__nav-link">
+                Инъекторы NSI
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="second-level-menu d-none">
+          <nav class="navbar">
+            <div class="nav-link__wrapper">
+              <a href="#" class="second-level__nav-link">
+                Линия сортировки морских гребешков NGL-1000
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="#" class="second-level__nav-link">
+                Шеппер NHS-5000
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div class="second-level-menu d-none">
+          <nav class="navbar">
+            <div class="nav-link__wrapper">
+              <a href="/nikko/workshop.html" class="second-level__nav-link">
+                Икорный цех с производительностью 1000 кг/час
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/workshop.html" class="second-level__nav-link">
+                Цех первичной переработки лососевых с производ. 2400 шт./ч
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/workshop.html" class="second-level__nav-link">
+                Цех первичной переработки и сортировки лососевых производ. 4800 шт./ч
+              </a>
+            </div>
+            <div class="nav-link__wrapper">
+              <a href="/nikko/workshop.html" class="second-level__nav-link">
+                Цех первичной переработки и сортировки лососевых производ. 16 800 шт./ч
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="header-menu header-company-menu">
+        <nav class="navbar first-level__navbar">
+          <div class="nav-link__wrapper">
+            <a href="/nikko/company.html" class="first-level__nav-link">
+              О компании
+            </a>
+            <div class="nav-link__wrapper-line nav-link__wrapper_company-line"></div>
+          </div>
+          <div class="nav-link__wrapper">
+            <a href="/nikko/clients.html" class="first-level__nav-link">
+              Наши клиенты
+            </a>
+            <div class="nav-link__wrapper-line nav-link__wrapper_company-line"></div>
+          </div>
+          <div class="nav-link__wrapper">
+            <a href="/nikko/answer-question.html" class="first-level__nav-link">
+              Вопрос-ответ
+            </a>
+            <div class="nav-link__wrapper-line nav-link__wrapper_company-line"></div>
+          </div>
+          <div class="nav-link__wrapper">
+            <a href="/nikko/nikko-history.html" class="first-level__nav-link">
+              История Nikko в России
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="popup mobile-menu">
+    <div class="mobile-menu__wrapper">
+      <div class="mobile-menu-header">
+        <div class="mobile-menu__logo">
+          <img src="assets/images/mobile-logo.svg" alt="Nikko">
+        </div>
+        <div class="mobile-cross">
+          <img src="assets/images/mobile-cross.svg" alt="Nikko">
+        </div>
+      </div>
+      <div class="navbar-menu__link header-search mobile-menu-search">
+        <input class="input-search" type="text" placeholder="Поиск">
+        <button class="search-btn" type="submit">
+          <img src="assets/images/search.svg" alt="Nikko">
+        </button>
+      </div>
+      <div class="mobile-navbar">
+        <div class="mobile-navbar__item test">
+          <div class="navbar-menu__link mobile-navbar__link mobile-eq-menu">
+            <a href="#" class="nav-link">
+              Оборудование
+            </a>
+            <div class="after-link__arrow"></div>
+          </div>
+          <div class="mobile-submenu">
+            <div class="mobile-submenu__item">
+              <div class="mobile-submenu__wrapper">
+                <div class="mobile-submenu_third">
+                  Первичная переработка рыбы
+                </div>
+                <div class="after-link__arrow"></div>
+              </div>
+              <div class="mobile-submenu__links">
+                <a href="/nikko/modification.html">Линия непрерывной переработки лососевых NAG-601</a>
+                <a href="/nikko/modification.html">Установка для автоматического отсекания голов NOH-100</a>
+                <a href="/nikko/modification.html">Установка для потрошения и мойки лососевых NMG-501</a>
+                <a href="/nikko/workshop.html">Линия автоматической сортировки и весового контроля NDG-2000</a>
+              </div>
+            </div>
+            <div class="mobile-submenu__item">
+              <div class="mobile-submenu__wrapper">
+                <div class="mobile-submenu_third">
+                  Переработка лососевой икры
+                </div>
+                <div class="after-link__arrow"></div>
+              </div>
+              <div class="mobile-submenu__links">
+                <a href="/nikko/separations.html">Икорные сепараторы NRS</a>
+                <a href="/nikko/separations.html">Установка для промывки лососевой икры NRSS-1000</a>
+                <a href="/nikko/separations.html">Установка для засолки лососевой икры NSA-500</a>
+                <a href="/nikko/separations.html">Установка для подсушки лососевой икры NSK-800</a>
+                <a href="/nikko/workshop.html">Икорный цех серии NRS</a>
+              </div>
+            </div>
+            <div class="mobile-submenu__item">
+              <div class="mobile-submenu__wrapper">
+                <div class="mobile-submenu_third">
+                  Глубокая переработка рыбы
+                </div>
+                <div class="after-link__arrow"></div>
+              </div>
+              <div class="mobile-submenu__links">
+                <a href="/nikko/separations.html">Филетировочная машина NSSB-300</a>
+                <a href="/nikko/separations.html">Многофункциональная филетировочная машина NSB-300</a>
+                <a href="/nikko/separations.html">Слайсер NPJ-3000</a>
+                <a href="/nikko/separations.html">Инъекторы NSI</a>
+              </div>
+            </div>
+            <div class="mobile-submenu__item">
+              <div class="mobile-submenu__wrapper">
+                <div class="mobile-submenu_third">
+                  Переработка морских гребешков
+                </div>
+                <div class="after-link__arrow"></div>
+              </div>
+              <div class="mobile-submenu__links">
+                <a href="/nikko/separations.html">Линия сортировки морских гребешков NGL-1000</a>
+                <a href="/nikko/separations.html">Шеппер NHS-5000</a>
+              </div>
+            </div>
+            <div class="mobile-submenu__item">
+              <div class="mobile-submenu__wrapper">
+                <div class="mobile-submenu_third">
+                  Комплексные решения
+                </div>
+                <div class="after-link__arrow"></div>
+              </div>
+              <div class="mobile-submenu__links">
+                <a href="/nikko/workshop.html">Икорный цех с производительностью 1000 кг/час</a>
+                <a href="/nikko/workshop.html">Цех первичной переработки лососевых с производ. 2400 шт./ч</a>
+                <a href="/nikko/workshop.html">Цех первичной переработки и сортировки лососевых производ. 4800 шт./ч</a>
+                <a href="/nikko/workshop.html">Цех первичной переработки и сортировки лососевых производ. 16 800 шт./ч</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-menu__link mobile-navbar__link">
+          <a href="/nikko/service.html" class="nav-link">
+            Сервис и обслуживание
+          </a>
+        </div>
+        <div class="mobile-navbar__item test">
+          <div class="navbar-menu__link mobile-navbar__link mobile-company-menu ">
+            <a href="#" class="nav-link">
+              О компании
+            </a>
+            <div class="after-link__arrow"></div>
+          </div>
+          <div class="mobile-submenu">
+            <a href="/nikko/company.html">
+              О компании
+            </a>
+            <a href="/nikko/clients.html">
+              Наши клиенты
+            </a>
+            <a href="/nikko/answer-question.html">
+              Вопрос-ответ
+            </a>
+            <a href="/nikko/nikko-history.html">
+              История Nikko в России
+            </a>
+          </div>
+        </div>
+        <div class="navbar-menu__link mobile-navbar__link">
+          <a href="#" class="nav-link">
+            Дилеры
+          </a>
+        </div>
+      </div>
+      <div class="mobile-menu__footer-block">
+        <button class="mobile-menu-btn">
+          Связаться
+        </button>
+        <div class="lang-btn_wrapper mobile-lang-btn">
+          <a href="#" class="lang-btn active">RU</a>
+          <a href="#" class="lang-btn">EN</a>
+          <a href="#" class="lang-btn">JP</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="main">
+    <div id="company-list-bg">
+      <div class="company-list-bg">
+        <div class="img-container">
+          <img src="assets/images/contacts.png" alt="Nikko">
+          <div class="company-list-content">
+            <h1 class="title main-title">
+              Контакты
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="company-contacts">
+      <div class="container">
+        <div class="company-contacts">
+          <div class="company-contacts__item">
+            <img src="assets/images/company-img.png" alt="Nikko">
+            <div class="bottom-img__text">
+              Nikko Co., Ltd 110-1 Цуруно, Кусиро, Хоккайдо
+            </div>
+          </div>
+          <div class="company-contacts__item">
+            <div class="company-contacts__title">
+              Эксклюзивный дистрибьютор продукции NIKKO Co.Ltd. в России:
+            </div>
+            <div class="company-contacts__list">
+              <div class="company-contacts__list-item">
+                Orion Corporation
+              </div>
+              <div class="company-contacts__list-item">
+                087-0034 Japan
+              </div>
+              <div class="company-contacts__list-item">
+                Hokkaido Nemuro Tsukiokacho-2-91-2
+              </div>
+              <div class="company-contacts__list-item">
+                <a href="http://www.orionjapan.com" target="_blank" class="company-contacts__link">
+                  www.orionjapan.com
+                </a>
+              </div>
+              <div class="company-contacts__list-item">
+                <span>Тел:</span>
+                <a href="tel:+" class="company-contacts__link-item">
+                  +81 (153) 25-41-24
+                </a>
+              </div>
+              <div class="company-contacts__list-item">
+                <span>Факс:</span>
+                <a href="tel:+" class="company-contacts__link-item">
+                  +81 (153) 25-41-22
+                </a>
+              </div>
+              <div class="company-contacts__list-item">
+                <span>E-mail:</span>
+                <a href="mailto:orion@orionjapan.com" class="company-contacts__link-item">orion@orionjapan.com</a>
+              </div>
+              <div class="company-contacts__list-item">
+                <span>Время работы:</span>
+                пн-пт 9:00 - 18:00
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="more-contacts">
+      <div class="container">
+        <div class="more-contacts">
+          <div class="more-contacts__item">
+            <div class="more-contacts__title">
+              Дилеры в России:
+            </div>
+            <div class="more-contacts__text">
+              Телефон единой линии: <a href="tel:8 800 100 0334">8 800 100 0334</a> <br> (звонок из всех регионов России бесплатный)
+            </div>
+            <div class="more-contacts__text">
+              Время работы: 9:00 - 18:00 (Дальний Восток)
+            </div>
+          </div>
+          <div class="more-contacts__item">
+            <div class="more-contacts__title">
+              Петропавловск-Камчатский:
+            </div>
+            <div class="more-contacts__text">
+              ООО «Никко Сервис» ул. Топоркова, <br> д.9/7, офис 1
+            </div>
+            <div class="more-contacts__text">
+              Тел: <a href="tel:+7 (4152) 44-42-88">+7 (4152) 44-42-88</a>
+            </div>
+            <div class="more-contacts__text mail">
+              Эл.почта: <a href="mailto:service@nikko-ru.com">service@nikko-ru.com</a>
+            </div>
+          </div>
+          <div class="more-contacts__item">
+            <div class="more-contacts__title">
+              Южно-Сахалинск:
+            </div>
+            <div class="more-contacts__text">
+              ООО «Никко Сахалин» ул. Ленина, <br> д.441а, офис 310/1
+            </div>
+            <div class="more-contacts__text">
+              Тел: <a href="tel:+7 (4242) 310-888">+7 (4242) 310-888</a>
+            </div>
+            <div class="more-contacts__text mail">
+              Эл.почта: <a href="mailto:service@nikko-ru.com">service@nikko-ru.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="form-block">
+      <div class="form-block">
+        <div class="form-block__item">
+          <div class="form-wrapper">
+            <div class="form-title">
+              Форма обратной связи
+            </div>
+            <form action="#" class="form-content">
+              <label for="#">
+                <input type="text" name="name" class="form-input" placeholder="Имя*" required>
+              </label>
+              <label for="#">
+                <input type="text" name="company" class="form-input" required>
+                <span placeholder="Компания"></span>
+              </label>
+              <label for="#">
+                <input type="text" name="city" class="form-input">
+                <span placeholder="Город"></span>
+              </label>
+              <label for="#">
+                <input type="text" name="email" class="form-input" required>
+                <span placeholder="E-mail"></span>
+              </label>
+              <label for="#">
+                <input type="tel" name="phone" class="form-input">
+                <span placeholder="Номер телефона"></span>
+              </label>
+              <label for="#">
+                <textarea name="text" id="" cols="30" rows="5" class="form-textarea"></textarea>
+                <span placeholder="Сообщение"></span>
+              </label>
+              <button class="btn form-btn">Отправить</button>
+            </form>
+          </div>
+        </div>
+        <div class="form-block__item">
+          <div class="form-block__application-wrapper">
+            <div class="form-block__application-logo">
+              <img src="assets/images/form-logo.svg" alt="Nikko">
+            </div>
+            <div class="form-block__application-text">
+              Оставьте заявку, и наш специалист свяжется с вами, чтобы проконсультировать по всем интересующим вас вопросам.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div id="footer-top">
+      <div class="container">
+        <div class="footer-block footer-top">
+          <div class="footer-top__item">
+            <div class="footer-logo__img">
+              <a href="/nikko/" class="footer-logo__img-link">
+                <img src="assets/images/logo.svg" alt="Nikko">
+              </a>
+            </div>
+            <div class="footer-logo__text">
+              Оборудование для рыбопереработки
+            </div>
+          </div>
+          <div class="footer-top__item">
+            <div class="footer-contact__tel">
+              <a href="tel:8 800 100-0334" class="footer-contact__tel-link">
+                8 800 100-0334
+              </a>
+            </div>
+            <div class="footer-contact__tel-text footer-contact__tel-link">
+              (звонок из всех регионов России бесплатный)
+            </div>
+          </div>
+          <div class="footer-top__item">
+            <div class="footer-contact__mail">
+              <a href="mailto:info@nikko-ru.com" class="footer-contact__link">
+                info@nikko-ru.com
+              </a>
+            </div>
+            <div class="footre-contact__info">
+              <a href="#" class="footer-contact__link">
+                Контактная информация
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-bottom">
+      <div class="container">
+        <div class="footer-block footer-bottom">
+          <div class="footer-bottom__item">
+            <div class="copyrighting">
+              © 2009-2022 Nikko Co., Ltd. All Rights Reserved.
+            </div>
+          </div>
+          <div class="footer-bottom__item">
+            <div class="reference">
+              Информация, размещенная на сайте, не является публичной офертой. Все технические характеристики оборудования, распространённые на данном сайте, носят справочный характер. Конкретные технические характеристики указаны в технической документации к конкретному оборудованию.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- <div class="sitemap">
+    <div class="sitemap__opener">
+      <div class="sitemap__opener_wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="sitemap__wrapper">
+      <nav>
+        <a href="/nikko/nikko/index.html">Главная</a>
+        <a href="/nikko/nikko/404.html">404</a>
+        <a href="/nikko/nikko/answer-question.html">Вопрос-ответ</a>
+        <a href="/nikko/nikko/clients.html">Наши клиенты</a>
+        <a href="/nikko/nikko/company.html">О компании</a>
+        <a href="/nikko/nikko/contacts.html">Контакты</a>
+        <a href="/nikko/nikko/equipment.html">Оборудование</a>
+        <a href="/nikko/nikko/modification.html">Линия непрерывной переработки лососевых NAG-601</a>
+        <a href="/nikko/nikko/nikko-history.html">История Nikko в России</a>
+        <a href="/nikko/nikko/search.html">Поиск</a>
+        <a href="/nikko/nikko/separations.html">Икорные сепараторы NRS</a>
+        <a href="/nikko/nikko/service.html">Сервис и обслуживание</a>
+        <a href="/nikko/nikko/workshop.html">Икорный цех с производительностью 1000 кг/час</a>
+      </nav>
+    </div>
+  </div> -->
+  <script src="./assets/libs/js/jquery.min.js"></script>
+  <script src="./assets/libs/js/svg4everybody.min.js"></script>
+  <script src="./assets/scripts/app.min.js"></script>
+</body>
+
+</html>
